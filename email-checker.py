@@ -138,8 +138,6 @@ if __name__ == "__main__":
                     print(f"Subject: {subject}")
                     print(f"Mail id: {mid}")
                     print(f"Sender Detail from email header: {sender_detail}")
-                    # if sender_detail:
-                    #     print(f"Sender Detail: {sender_detail}")
                     print(f"Quarantine Reason: {', '.join(quarantine_names)}")
                     if message_body:
                         filename = f"message_body_{sender}_{mid}.html"
